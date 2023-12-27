@@ -1,0 +1,23 @@
+using System;
+
+public static class Kata
+{
+    public static string boolToWord(bool word)
+    {
+        if (word)
+        {
+            return "Yes";
+        }
+        else
+        {
+            return "No";
+        }
+    }
+
+    public static void Main(string[] args)
+    {
+        bool exampleValue = true;
+        string result = boolToWord(exampleValue);
+        Console.WriteLine(result);
+    }
+}
